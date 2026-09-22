@@ -34,7 +34,7 @@ flowchart TD
     subgraph MCUCore [MCU ファームウェア: sketch.ino]
         Bridge --> MCU[RPC ハンドラ]
         MCU --> LED[オンボード RGB LED]
-        MCU --> DRV[DRV8833 モータードライバ]
+        MCU --> DRV[DRV8835 モータードライバ]
         DRV --> Motors[左右 DC モーター]
     end
 ```
@@ -82,7 +82,7 @@ flowchart TD
 ## プロジェクト構成
 
 - main.py: 物体検出、Web UI通信、タイムアウト監視、MCUへのRPCコマンド送信を行うPythonスクリプト
-- sketch.ino: RPC経由でコマンドを受け取り、DRV8833のPWMピンおよびRGB LEDを制御するMCUスケッチ
+- sketch.ino: RPC経由でコマンドを受け取り、DRV8835のPWMピンおよびRGB LEDを制御するMCUスケッチ
 - index.html / app.js: ブラウザ用Web UI（カメラ映像ストリーミング、検出履歴、確信度スライダー）
 
 ## 使い方・動作手順
@@ -90,7 +90,7 @@ flowchart TD
 ### 1. 配線と組み立て
 
 - MIPIカメラをMedia CarrierのCSIコネクタに確実に接続します。
-- 上記配線表に従い、DRV8833、単3電池ボックス、DCモーターを配線します。
+- 上記配線表に従い、DRV8835、単3電池ボックス、DCモーターを配線します。
 - 安全のため、最初は車輪を机から浮かせた状態でテストしてください。
 
 ### 2. 電源投入
