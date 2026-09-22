@@ -51,15 +51,17 @@ flowchart TD
 
 ### 必要機材
 
-- メインボード: Arduino UNO Q または VENTUNO Q (x1)
-- 拡張ボード: Arduino Media Carrier ボード (x1)
-- カメラ: MIPI CSI カメラモジュール (x1)
-- モータードライバ: DRV8835 デュアル Hブリッジ モジュール (x1)
-- 駆動系: DCギアモーター ＆ 車輪 (x2)
-- モーター電源: 単3形乾電池 × 2本（電池ボックス付き、約3.0V）
+- メインボード: [Arduino UNO Q](https://akizukidenshi.com/catalog/g/g131696/) (x1)
+- 拡張ボード: [Arduino Media Carrier ボード](https://www.switch-science.com/products/11135) (x1)
+- カメラ: [MIPI CSI カメラモジュール](https://akizukidenshi.com/catalog/g/g117368/) (x1)
+- モータードライバ: [DRV8835使用ステッピング&DCモータードライバーモジュール](https://akizukidenshi.com/catalog/g/g109848/) (x1)
+- 駆動系: DCギアモーター ＆ 車輪 （[ロボットシャーシ](https://akizukidenshi.com/catalog/g/g113651/)に含まれます）
+- モーター電源: 単3形乾電池 × 2本（[電池ボックス](https://akizukidenshi.com/catalog/g/g100327/)付き、約3.0V）
 - マイコン電源: USB モバイルバッテリー（5V USB-C給電）
-- ロボットシャーシ
-- ブレッドボード／ジャンパーワイヤ
+- ロボットシャーシ: [2WD Mini Smart Robot Mobile Platform Kit for education](https://akizukidenshi.com/catalog/g/g113651/)
+- 小型ブレッドボード
+- ジャンパーワイヤ
+- USB-Cケーブル
 - インターネット接続可能なPC
 
 ### 配線表 (DRV8835 接続)
