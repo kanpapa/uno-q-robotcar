@@ -5,6 +5,8 @@
 カメラの視野内に物体が検出されている間は前進し、物体が外れて検知が途切れると自動的に停止（安全タイムアウト）します。検出状況や確信度はWeb UIブラウザ上からリアルタイムにモニタリング・設定変更が可能です。
 
 Arduino App Labのインスピレーションにある`Detect Objects on Camera`のプロジェクトにモーター制御のスケッチを追加してBridgeで連携したものです。
+
+![Uno Q Robot Car](assets/docs_assets/uno-q-robot-car-rev01.jpg)
  
 ## 主な特徴
 
