@@ -51,8 +51,8 @@ flowchart TD
 
 ### 必要機材
 
-- メインボード: [Arduino UNO Q](https://akizukidenshi.com/catalog/g/g131696/) (x1)
-- 拡張ボード: [Arduino Media Carrier ボード](https://www.switch-science.com/products/11135) (x1)
+- メインボード: [Arduino UNO Q RAM:4GB eMMC:32GB](https://akizukidenshi.com/catalog/g/g131696/) (x1)
+- 拡張ボード: [Arduino Uno Q Media Carrier ボード](https://www.switch-science.com/products/11135) (x1)
 - カメラ: [MIPI CSI カメラモジュール](https://akizukidenshi.com/catalog/g/g117368/) (x1)
 - モータードライバ: [DRV8835使用ステッピング&DCモータードライバーモジュール](https://akizukidenshi.com/catalog/g/g109848/) (x1)
 - 駆動系: DCギアモーター ＆ 車輪 （[ロボットシャーシ](https://akizukidenshi.com/catalog/g/g113651/)に含まれます）
